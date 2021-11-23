@@ -7,7 +7,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 export default function Layout(props) {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className='navbar-border'>
         <Container className='nav-container'>
           <Navbar.Brand href="#home"><img src={bohringerlogo} alt='bohringer-logo' id='logo' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -1,0 +1,54 @@
+*{
+  font-family: 'Montserrat', sans-serif
+}
+
+/* ==========Home============== */
+
+.home-info-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(12,77,156,1);
+  
+  padding: 10px 80px;
+
+}
+
+#home-primary-font{
+  font-size: 18px;
+  line-height: normal;
+  color: white;
+  font-weight: bold;
+}
+
+#home-secondary-font{
+  font-weight: 700;
+  color: rgba(239,171,174,1);
+}
+
+.grid-info-container{
+  border-right: white solid 3px;
+  padding: 5px;
+}
+
+.grid-info-nb{
+  padding: 5px;
+}
+
+.home-history{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+margin: 0 auto;
+width: 40vw;
+position: relative;
+height: 300px;
+}
+
+.rocks-bg{
+  position: absolute;
+  top:0;
+  bottom:0;
+  right: -20vw;
+  height: 300px;
+}

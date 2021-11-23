@@ -7,6 +7,10 @@
   width: 30vw;
 }
 
+.navbar-border{
+  border-bottom: rgba(12,77,156,1) solid 10px;
+}
+
 @media only screen and (max-width: 1000px) {
   .nav-container {
     flex-direction: row
