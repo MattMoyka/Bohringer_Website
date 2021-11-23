@@ -3,6 +3,8 @@
   flex-direction: column;
 }
 
+
+
 #logo{
   width: 30vw;
 }
@@ -28,7 +30,12 @@
   padding: 30px;
 } 
 
-
+.footer{
+  background-color: rgba(12,77,156,1);
+  color: white;
+  padding: 20px;
+  font-weight: 700;
+}
 
 .footer-row{
   display: flex;
@@ -48,7 +55,7 @@
 
 
 #border-left{
-  border-left: solid rgb(12, 11, 11) 3px;
+  border-left: solid white 3px;
   padding-left: 5px;
 }
 

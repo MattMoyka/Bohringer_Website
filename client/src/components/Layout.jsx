@@ -12,7 +12,7 @@ export default function Layout(props) {
           <Navbar.Brand href="#home"><img src={bohringerlogo} alt='bohringer-logo' id='logo' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto nav-items">
               <Nav.Link href='/'>HOME</Nav.Link>
               <Nav.Link href="/about-us">ABOUT US</Nav.Link>
               <Nav.Link href='/impactors'>IMPACTORS</Nav.Link>
