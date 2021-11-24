@@ -137,3 +137,9 @@ margin: 0 auto;
   gap: 50px;
 
 }
+
+.about-secondary-text{
+  width: 70vw;
+  font-size: .8rem;
+  margin: 15px auto;
+}

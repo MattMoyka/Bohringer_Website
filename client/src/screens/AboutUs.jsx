@@ -2,10 +2,12 @@ import bohringerProcessing from '../assets/Böhringer_Materials_Processing_Impac
 import './screen.css'
 import smalllogo from '../assets/small_logo.webp'
 import thomas from '../assets/thomas.webp'
+import bb5 from '../assets/bb5.webp'
+import Hidromek from '../assets/Hidromek.webp'
 
 export default function AboutUs() {
   return (
-    <div>
+    <div style={{ marginBottom: '50px' }}>
       <img src={bohringerProcessing} className='about-processing-img' alt='bohringer processing plant' />
       <div className='about-container'>
         <div><b>North American delegates attend  a seminar at Böhringer in 1987.</b>
@@ -33,7 +35,11 @@ export default function AboutUs() {
           <div>Thomas Hecker with the late Paul Böhringer in 1991.</div>
         </div>
       </div>
+      <img src={bb5} alt='nameplate' className='about-processing-img' />
+      <div className='about-secondary-text'>Partners in Quality <br />
+        The founder and and the equipment which bears his name "Paul Böhringer" and the engineers he mentored have long represented the brand’s creative driving force. But beyond that factory walls, many more have contributed to the success of the  Böhringer brand in a tradition of Böhringer brand collaboration that is reinforced throughout the decades. In the reference's  you’ll find a selection of the extraordinary producers  and brands with which Böhringer has the pleasure of working throughout the decades. </div>
 
+      <img src={Hidromek} alt='Hidromek' className='about-processing-img' />
     </div>
   )
 }
