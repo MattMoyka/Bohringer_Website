@@ -143,3 +143,66 @@ margin: 0 auto;
   font-size: .8rem;
   margin: 15px auto;
 }
+
+/* ========impactors=========== */
+
+.impactors-top-title{
+margin: 10px auto;
+width: 70vw;
+
+}
+
+.impactors-secondary-title{
+
+  margin: 10px auto;
+  width: 70vw;
+}
+
+.impactors-top-img{
+  display:flex;
+  width: 70vw;
+justify-content: space-between;
+margin: 0 auto;
+padding: 30px;
+}
+
+#impact-img-size{
+  width: 10vw;
+}
+
+.impactor-info-title{
+  width: 70vw;
+  margin: 30px auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.impactor-info-container{
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.impactors-footer{
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin: 30px auto;
+  align-items: center;
+
+}
+
+#impactors-footer-font{
+  font-size: 1.5rem;
+  
+}
+
+#impactor-footer-img{
+margin: 0 auto;
+display: flex;
+justify-content: center;
+width: 70vw;
+margin-bottom: 30px;
+}
