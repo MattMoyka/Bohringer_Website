@@ -149,6 +149,7 @@ margin: 0 auto;
 .impactors-top-title{
 margin: 10px auto;
 width: 70vw;
+font-weight: bold;
 
 }
 
@@ -206,3 +207,12 @@ justify-content: center;
 width: 70vw;
 margin-bottom: 30px;
 }
+
+/* =========rgf feeders=========== */
+.rgf-small-logos, .rgf-1, .rgf-2{
+  display: flex;
+  width: 70vw;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+

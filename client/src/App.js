@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './screens/Home';
 import AboutUs from './screens/AboutUs'
 import Impactors from './screens/Impactors';
+import RGFFeeders from './screens/RGFFeeders';
 import { Route } from 'react-router-dom'
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route path='/impactors'>
         <Impactors />
+      </Route>
+      <Route path='/rgf-feeders'>
+        <RGFFeeders />
       </Route>
     </Layout>
   );
